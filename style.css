@@ -1,0 +1,65 @@
+body{
+    background-color: #CECE5A;
+}
+
+main{
+    height: 715px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    background-color: #91C8E4;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.teclas{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+    gap: 10px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#text{
+    width: 320px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px black;
+    font-size: 30px;
+}
+
+#number:hover{
+    border: none;
+}
+
+.botones {
+    width: 70px;
+    height: 70px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.C{
+    background-color: #FBA1B7;
+}
+
+.mas, .menos, .mult, .dividido{
+    background-color: #CECE5A;
+}
+
+.input-number{
+    display: flex;
+    justify-content: center;
+}
